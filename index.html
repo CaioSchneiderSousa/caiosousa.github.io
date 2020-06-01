@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Caio </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/89974072_1359047124293943_8120049845374287872_n.jpg?_nc_cat=100&_nc_sid=dd7718&_nc_ohc=Uz9q3yI40vIAX_GvNJo&_nc_ht=scontent.fvix14-1.fna&oh=3d3513875c7251930d5107d9db20df3c&oe=5EF70433");
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Meu Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Sobre</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contato</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Caio Scnheider de Sousa</b></h1>
+    <p>Universidade de Vila Velha</p>
+    <img src="https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/89974072_1359047124293943_8120049845374287872_n.jpg?_nc_cat=100&_nc_sid=dd7718&_nc_ohc=Uz9q3yI40vIAX_GvNJo&_nc_ht=scontent.fvix14-1.fna&oh=3d3513875c7251930d5107d9db20df3c&oe=5EF70433" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    
+
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">Meu Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://scontent.fvix14-1.fna.fbcdn.net/v/t31.0-8/p960x960/18319359_1459383557471749_1156475037035735798_o.jpg?_nc_cat=103&_nc_sid=daf655&_nc_ohc=JwOh4YZypjYAX-H0fuD&_nc_ht=scontent.fvix14-1.fna&_nc_tp=6&oh=f193b36c43d949d94421ae7437c71c7a&oe=5EF565FA" style="width:100%">
+        <img src="https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/95926219_1420114598187195_6767280540367192064_n.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_ohc=kblywgKVFF0AX--dlBG&_nc_ht=scontent.fvix14-1.fna&oh=7ffcc9a0df746d5494a69ff6c8ff3f66&oe=5EF5ED3B" style="width:100%">
+        <img src=https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/p843x403/65206988_1134738206724837_7493453398658777088_o.jpg?_nc_cat=103&_nc_sid=dd7718&_nc_ohc=WGLvF0nNpXMAX8e-KWf&_nc_ht=scontent.fvix14-1.fna&_nc_tp=6&oh=2da277bbc045ed7a2092b0a8d452b57a&oe=5EF8FDE0 style="width:100%">
+          </div>
+
+      <div class="w3-half">
+        <img src="https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/101124302_1420110288187626_5907400024391680000_n.jpg?_nc_cat=103&_nc_sid=8024bb&_nc_ohc=i8bzkFnHkYAAX8_P0BW&_nc_ht=scontent.fvix14-1.fna&oh=52267ca62579fdf7bd7feaff93b71f2f&oe=5EF68E70" style="width:100%">
+        <img src=https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/101272586_1420118318186823_2208500946999181312_n.jpg?_nc_cat=102&_nc_sid=8024bb&_nc_ohc=rIqRYotLbYoAX8wJ6Yk&_nc_ht=scontent.fvix14-1.fna&oh=894d4f03a6673bbccc5fe466bce0fb09&oe=5EF8A965 style="width:100%">
+        <img src="https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/101506622_1420112108187444_156043149775470592_n.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=8kj4frJ6Vf0AX-QIOIH&_nc_ht=scontent.fvix14-1.fna&oh=29a143ca95d47ad20c4fd9a1024244e6&oe=5EF833AC" style="width:100%">
+    
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>Quem Sou Eu</h2>
+    <hr class="w3-opacity">
+    <p> Meu nome é Caio Schneider de Sousa, moro no município de Santa Maria de Jetibá. Gosto de viajar, curtir festas e ficar em casa jogando nos tempos vagos. Atualmente estudo na universidade de Vila Velha cursando ciência da computação e estou começando no ramo de investimentos. Não tenho experiência em grandes empresas, mas trabalho com meus pais em um restaurante no interior do município, onde aprendi como tratar as pessoas e ter noção do mercado de trabalho.  Alguns dos meus objetivos são: me graduar, continuar estudando, viajar para outros países a trabalho e a passeio. 
+      Tento aproveitar ao máximo o que outras pessoas possam me oferecer, escutando um pouco do conhecimento de cada um para aprender sempre mais.
+        
+    </p>
+    <h3 class="w3-padding-16">Minhas Habilidades</h3>
+    <p class="w3-wide">Carismatico</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Autoconfiante</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Empreendedor</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Cursando</span><br><br>
+        Ciência da Computação
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Trabalho</span><br>
+        <br>
+        Socio Proprietario
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Empresa</span><br><br>
+        Restaurante e Lanchonete Sousa
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Gamer</span><br><br>
+        T5k Zeusus
+      </div>
+    </div>
+
+    
+
+    <!-- Testimonials -->
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16"></h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      
+
+      
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contatos</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Santa Maria de Jetibá</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: +55 27 998877609</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> E-mail: kio-z@hotmail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="https://scontent.fvix14-1.fna.fbcdn.net/v/t1.0-9/993934_632422246776818_649545541_n.jpg?_nc_cat=103&_nc_sid=dd9801&_nc_ohc=RYdcEINR-4IAX-sqpdX&_nc_ht=scontent.fvix14-1.fna&oh=2d1857c5f2a648c9007c3be749eaddd8&oe=5EF635F2" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+   
+    <p>Vamos entrar em contato. Me mande uma mensagem:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="E-mail" required name="E-mail"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Assunto" required name="Assunto"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mensagem" required name="Mensagem"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar Mensagem
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer
+  
+    class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px"> 
+    
+    <p class="w3-medium"> <a href="https://www.facebook.com/kiosousacaio" target="_blank" style="font-size:30px" class="w3-hover-text-green"><i class="fa fa-facebook-official w3-hover-opacity" ></i></a></p>
+   
+    <p class="w3-medium"> <a href=https://www.instagram.com/kiosousa_caio/ target="_blank" style="font-size:30px" class="w3-hover-text-green"><i class="fa fa-instagram w3-hover-opacity" ></i></a></p>
+    
+    <p class="w3-medium"> <a href="https://github.com/eresmatador125" target="_blank" style="font-size:30px" class="w3-hover-text-green"><i class="fa fa-github w3-hover-opacity" ></i></a></p>
+
+
+   
+    <p class="w3-medium"><a href="https://uvv.br/" target="_blank" class="w3-hover-text-green">Universidade de Vila Velha</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
